@@ -1,0 +1,56 @@
+/* utilities */
+body{
+    margin:0;
+}
+.nav-link{
+    color:#3E3E3E;
+}
+.btn-white{
+    background-color: #FFFFFF;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.slideCap{
+    margin-bottom: 6%;
+}
+.slideCap h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+.card{
+    border:none;
+    transform:scale(1);
+}
+.btn-custom{
+    /* --bs-btn-background-color:#f496d210; */
+    background-color: #f496d210;
+    border:none;
+    font-weight: 700;
+}
+.btn-custom:hover{
+    background-color:#ffffff;
+}
+/* .list-unstyled{
+    list-style-image: url(icons/check-circle-1.svg);
+} */
+.custom-card:hover .btn-custom{
+    background-color:#ffffff;
+}
+.custom-card:hover {
+    border-radius: 26px;
+    background-color:#3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    color:#ffffff
+}
+.mt-100{
+    margin-bottom:100px;
+}
+.client-card{
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
